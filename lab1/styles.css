@@ -1,0 +1,28 @@
+table, td, tr {  
+    padding: 8px;
+    text-align: left;
+  }
+
+  #titles {
+      background-color: black;
+      color: white;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+  }
+
+#form_tab {
+    text-align:right;
+}
+
+  td, tr {
+    padding: 10px;
+  }
+
+  tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+  

@@ -25,11 +25,98 @@
         </p>
 
         <h1>Titulo 1</h1>
+        <br><br>
         <h2>Titulo 2</h2>
         <h3>Titulo 3</h3>
         <h4>Titulo 4</h4>
         <h5>Titulo 5</h5>
         <h6>Titulo 6</h6>
+
+        <h1>
+            P<i>rueba</i> con <u>textos</u>,
+            x = (log <sub>10</sub>) <sup>2</sup>
+        </h1>
         
+        <h1>Ejemplo de listas</h1>
+        <p>Lista de provincias</p>
+        <ul>
+            <li>San José</li>
+            <li>Heredia</li>
+            <li>Cartago
+                <ul>
+                    <li>Orosi</li>
+                </ul>
+            </li>
+            <li>Limón</li>
+            <li>Guanacaste</li>
+            <li>Puntarenas</li>
+        </ul>
+
+        Pasos para pasar el curso
+        <ol>
+            <li>Hacer los labs</li>
+            <li>Copiar el ejemplo a tiempo antes de que el profe siga con la clase</li>
+        </ol>
+
+        <h1>Link a google</h1>
+        <a href="https://www.google.com" target="blank">Ir a google</a>
+
+        <h1>Rutas relativas</h1>
+        <a href="OtrasPaginas/pagina2.html">Ir a pagina 2</a>
+
+
+        <h1>Imagen del Bicho SIUUUUU!</h1>
+        <img width="200" height="200"
+        alt="Muffin" src="https://www.seekpng.com/png/detail/175-1751412_real-madrid-cristiano-ronaldo-7-ronaldo-real-madrid.png" >
+        
+        <h1>Tablas</h1>
+
+        <table border="1">
+            <tr>
+                <td>Horario</td>
+                <td>Actividad</td>
+            </tr>
+            <tr>
+                <td>8:00 am</td>
+                <td>Desayuno</td>
+            </tr>
+        </table>
+
+        <h1>Formularios</h1>
+
+        <form onsubmit="return false;" method="GET">
+
+            <p>Textos normales</p>
+            <input type="text" placeholder="Tel: 7777-7777" id="txt_telefono"/>
+
+            <p>Textos de contraseña</p>
+            <input type="password" id="txt_pass">
+
+            <p>Texto largo</p>
+            <textarea id="txt_comment" placeholder="XXXX"></textarea>
+
+            <p>Lista de opciones</p>
+            <select id="txt_provincia">
+                <option value="1"> San José</option>
+                <option value="2"> Heredia</option>
+                <option value="3"> Cartago</option>
+            </select>
+
+            <p>Botones tipo radio</p>
+            <input type="radio" name="radio_Acepto" id="radios_si"/> Si <br>
+            <input type="radio" name="radio_Acepto" id="radio_no"/> No <br>
+
+            <p>Checks</p>
+            <input type="checkbox" id="check_si"/>Si, estoy de acuerdo
+
+            <p>Botones</p>
+
+            <input type="submit" value="Enviar"/>
+            <input type="submit" value="Limpiar form">
+
+        </form>
+
+        
+
     </body>
 </html>

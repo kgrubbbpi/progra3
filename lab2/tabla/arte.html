@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulario</title>
+        <meta charset="uft-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form align="center">
+            <table align="center" id="form_tab">
+                <tr align="left">
+                    <td >
+                        <label>Introduce los términos de búsqueda:</label><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="center">
+                        <label> OBRA</label> <br><br>
+                    </th>
+                    <th align="center">
+                        <label> TIPO</label> <br><br>
+                    </th>
+                    <th align="center">
+                        <label> DISPONIBILIDAD </label> <br><br>
+                    </th>
+                    <th align="center">
+                        <label> ESTILO</label> <br><br>
+                    </th>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="title"> Título </label>
+                        <input type="text" name="title"/>
+                    </td>
+                    <td align="left">
+                        <input type="checkbox" name="tipo"/>
+                        <label for="escultura"> Escultura </label>
+                    </td>
+                    <td align="left"  >
+                        <input type="radio" name="museo"/>
+                        <label for="museo"> Museo / Acceso público </label>
+                    </td>
+                    <td>
+                        <select name="estilo" id="estilo">
+                            <option value="clas"> Clásico</option>
+                            <option value="abs"> Abstracto</option>
+                            <option value="surr"> Surrealista</option>
+                            <option value="otro"> Otros</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="autor"> Autor </label>
+                        <input type="text" name="autor"/>
+                    </td>
+                    <td align="left">
+                        <input type="checkbox" name="tipo"/>
+                        <label for="arq"> Arquitectura </label>
+                    </td>
+                    <td align="left">
+                        <input type="radio" name="colec"/>
+                        <label for="colec"> Colección privada </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td align="left">
+                        <input type="checkbox" name="tipo"/>
+                        <label for="arq"> Pintura </label>
+                    </td>
+                </tr>
+            </table>
+            <table class="tab-two">
+                <tr align="left">
+                    <td align="left" class="sugerencias">
+                        <label >Haganos saber sus sugerencias:</label>
+                        <textarea class="area" cols="40" rows="4" placeholder="Me gustaría indicar que..."></textarea>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+            
+            <input type="submit" value="Buscar"/>
+        </form>
+    </body>
+</html>

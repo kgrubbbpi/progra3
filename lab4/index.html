@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="./js/script.js"></script>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div align="center" id="calc">
+            <h1>Calculadora</h1>
+                <!-- <input type="text" id="txt_val" value="0" onkeydown="validarInput(event)"/> -->
+                <input type="text" id="txt_val" value="0" onkeydown="noTeclado()"/>
+                <br>
+                <br>
+                <button onclick="colocarCar('7');">7</button>
+                <button onclick="colocarCar('8');">8</button>
+                <button onclick="colocarCar('9');">9</button>
+                <button onclick="colocarCar('/');">/</button>
+                <br>
+                <br>
+                <button onclick="colocarCar('4');">4</button>
+                <button onclick="colocarCar('5');">5</button>
+                <button onclick="colocarCar('6');">6</button>
+                <button onclick="colocarCar('*');">*</button>
+                <br>
+                <br>
+                <button onclick="colocarCar('1');">1</button>
+                <button onclick="colocarCar('2');">2</button>
+                <button onclick="colocarCar('3');">3</button>
+                <button onclick="colocarCar('-');">-</button>
+                <br>
+                <br>
+                <button onclick="colocarCar('0');">0</button>
+                <button onclick="colocarCar('.');">.</button>
+                <button onclick="colocarCar('+');">+</button>
+                <button onclick="procVals()">=</button>
+                <br>
+                <br>
+                <button onclick="clean();">Limpiar</button>
+        </div>
+    </body>
+</html>
